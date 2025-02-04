@@ -13,9 +13,25 @@ body {
     color: #F6F6F6;
     
 }
-.titulo-destaque{
-    color: #22D4FD;
+
+.cabecalho {
+    padding: 2% 0 0 10% ;
 }
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24;
+    font-weight: 600;
+    color:#22D4FD;
+    text-decoration: none;
+
+}
+
 .minha-foto {
     border-radius: 7%;
     
@@ -39,6 +55,10 @@ body {
 .apresentacao__conteudo__titulo{
     font-family: 'Krona One', sans-serif;
     font-size: 36px;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
 }
  .apresentacao__conteudo__texto {
     font-size: 24px;
